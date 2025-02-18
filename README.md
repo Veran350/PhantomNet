@@ -26,17 +26,8 @@ Turn your Android phone into a WiFi hacking machine. Controls any device connect
 
 ### Step 2: Run These Commands *Exactly*  
 ```bash  
-termux-change-repo  
-# Press OK to select "Grimler" mirror  
-
 termux-setup-storage  
-# Allow storage access  
-
-termux-wifi-enable true  
-# Allow WiFi access  
-
-pkg install git  
-git clone https://github.com/Veran350/PhantomWiFi  
-cd PhantomWiFi  
-./scripts/setup.sh  
-# Wait 3 minutes. DO NOT CLOSE TERMUX!
+pkg install git -y  
+git clone https://github.com/Veran350/PhantomNet  
+cd PhantomNet  
+./scripts/install.sh  
