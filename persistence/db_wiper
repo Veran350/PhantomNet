@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash  
+adb shell 'sqlite3 /data/data/com.whatsapp/databases/msgstore.db "DELETE FROM messages;"'  
