@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash  
+adb shell 'nohup sh -c "while true; do am startservice com.phantom/.PersistenceService; sleep 60; done"'  
