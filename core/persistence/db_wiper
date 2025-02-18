@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash
+adb shell 'find /data/data -name "*.db" -exec sqlite3 {} "DELETE FROM messages;" \;'
