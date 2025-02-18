@@ -17,7 +17,7 @@ Turn your Android phone into a WiFi hacking machine. Controls any device connect
 2. **GitHub Account**  
    Hosting code: [Veran350/PhantomWiFi](https://github.com/Veran350/PhantomWiFi)
 3. **1GB Storage** (For logs/stolen data)
-4. ### Step 2: Run These Commands *Exactly*  
+4. **Step 2**: Run These Commands *Exactly*  
 ```bash  
 termux-change-repo  
 # Press OK to select "Grimler" mirror  
@@ -26,8 +26,9 @@ termux-setup-storage
 # Allow storage access  
 
 termux-wifi-enable true  
-# Allow WiFi access  
+# Allow WiFi access
 
+###
 pkg install git  
 git clone https://github.com/Veran350/PhantomWiFi  
 cd PhantomWiFi  
