@@ -1,4 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash  
-termux-wake-lock  
-cd ~/PhantomWiFi-Final  
-./scripts/start_attack.sh  
