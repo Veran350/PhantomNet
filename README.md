@@ -1,4 +1,4 @@
-# PhantomWiFi - Android Hacking Suite 
+# PhantomNet - Android Hacking Suite 
 *By Veran350*
 
 Turn your Android phone into a WiFi hacking machine. Controls any device connecting to "PhantomNet" WiFi.
